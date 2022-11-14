@@ -5,11 +5,7 @@ import uaslp.objetos.list.List;
 import uaslp.objetos.list.exceptions.NullNotAllowedException;
 import uaslp.objetos.list.exceptions.WrongIndexException;
 
-// Node es una inner class de LinkedList (clase anidada)
-// LinkedListIterator es una inner class de LinkedList
 
-// LinkedList es la outer class de Node
-// LinkedList es la outer class de LinkedListIterator
 
 public class LinkedList<T> implements List<T> {
     private Node<T> head;
